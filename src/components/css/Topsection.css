@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    background-color: #000508;
+    padding: 100px;
+    color: aliceblue;
+    
+   
+  }
+
+  .name{
+
+   font-size:50px;
+   font-weight: bold;
+  }
+  .left-grid{
+
+   grid-template-columns: auto;
+   padding: 10px;
+   font-size:50px;
+  
+  }
+
+
+
+
+
+ .kakashi {
+   width: 100px;
+ height:100px;
+
+}
+.text-img{
+   display: flex;
+   align-items: center;
+
+}
+
+
+.img{
+   height:auto;
+   width:auto;
+   display:flex
+}
+
+
+@media (max-width: 768px) {
+   .grid-container {
+       grid-template-columns: 1fr;
+       padding: 50px;
+   }
+
+   .name {
+       font-size: 40px;
+   }
+
+   .left-grid {
+       font-size: 40px;
+       padding: 20px;
+   }
+
+   .kakashi {
+       width: 80px;
+       height: 80px;
+   }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+   .grid-container {
+       grid-template-columns: 1fr;
+       padding: 20px;
+   }
+
+   .name {
+       font-size: 30px;
+   }
+
+   .left-grid {
+       font-size: 30px;
+       padding: 10px;
+   }
+
+   .kakashi {
+       width: 60px;
+       height: 60px;
+   }
+
+   .hire-me {
+       width: 100%;
+       font-size: 16px;
+   }
+}
