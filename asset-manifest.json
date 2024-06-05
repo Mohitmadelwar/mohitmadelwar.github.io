@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio-website/static/css/main.7d2ae479.css",
-    "main.js": "/Portfolio-website/static/js/main.8c823cdd.js",
-    "static/js/453.ace21015.chunk.js": "/Portfolio-website/static/js/453.ace21015.chunk.js",
-    "static/media/millionairemindset.gif": "/Portfolio-website/static/media/millionairemindset.fcc7695e0f84dde6f221.gif",
-    "static/media/Hirekingdom.gif": "/Portfolio-website/static/media/Hirekingdom.446cca48664e358172b2.gif",
-    "static/media/desktop.gif": "/Portfolio-website/static/media/desktop.05f035b3a27b38553a6a.gif",
-    "static/media/Studentdashboard.gif": "/Portfolio-website/static/media/Studentdashboard.18140d164b50dfcee86c.gif",
-    "static/media/ConcaveTrading.gif": "/Portfolio-website/static/media/ConcaveTrading.cdff9debd87722b0b0c8.gif",
-    "static/media/kakashe.gif": "/Portfolio-website/static/media/kakashe.18dfb15eb2000724e52e.gif",
-    "static/media/saketjagtap.jpg": "/Portfolio-website/static/media/saketjagtap.131369a2ef59f5bcbb7d.jpg",
-    "static/media/BasuTiwari.jpg": "/Portfolio-website/static/media/BasuTiwari.67ee92d813658f8c8a3b.jpg",
-    "index.html": "/Portfolio-website/index.html",
-    "main.7d2ae479.css.map": "/Portfolio-website/static/css/main.7d2ae479.css.map",
-    "main.8c823cdd.js.map": "/Portfolio-website/static/js/main.8c823cdd.js.map",
-    "453.ace21015.chunk.js.map": "/Portfolio-website/static/js/453.ace21015.chunk.js.map"
+    "main.css": "/static/css/main.7d2ae479.css",
+    "main.js": "/static/js/main.06bfe201.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/millionairemindset.gif": "/static/media/millionairemindset.fcc7695e0f84dde6f221.gif",
+    "static/media/Hirekingdom.gif": "/static/media/Hirekingdom.446cca48664e358172b2.gif",
+    "static/media/desktop.gif": "/static/media/desktop.05f035b3a27b38553a6a.gif",
+    "static/media/Studentdashboard.gif": "/static/media/Studentdashboard.18140d164b50dfcee86c.gif",
+    "static/media/ConcaveTrading.gif": "/static/media/ConcaveTrading.cdff9debd87722b0b0c8.gif",
+    "static/media/kakashe.gif": "/static/media/kakashe.18dfb15eb2000724e52e.gif",
+    "static/media/saketjagtap.jpg": "/static/media/saketjagtap.131369a2ef59f5bcbb7d.jpg",
+    "static/media/BasuTiwari.jpg": "/static/media/BasuTiwari.67ee92d813658f8c8a3b.jpg",
+    "index.html": "/index.html",
+    "main.7d2ae479.css.map": "/static/css/main.7d2ae479.css.map",
+    "main.06bfe201.js.map": "/static/js/main.06bfe201.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d2ae479.css",
-    "static/js/main.8c823cdd.js"
+    "static/js/main.06bfe201.js"
   ]
 }
