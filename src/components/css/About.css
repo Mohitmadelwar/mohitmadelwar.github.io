@@ -16,9 +16,8 @@ h1 {
 
 .bio {
   font-size: 18px;
-
+hyphens: auto;
   color: white;
-  text-align: justify; 
 }
 
 .timeline-container {
@@ -35,12 +34,15 @@ h1 {
   }
 
   .bio {
-    font-size: 18px;
-  
     color: white;
-    text-align: justify; 
+    hyphens: auto;
+text-align: justify;
+   hyphens: auto;
   }
+.container{
 
+
+}
   .timeline-container {
       padding: 10px;
   }
@@ -53,8 +55,7 @@ h1 {
   }
 
   .bio {
-    
-  
+    hyphens: auto;
     color: white;
   }
 
@@ -67,7 +68,11 @@ h1 {
 
 @media (max-width: 768px) {
     
-  
+  .bio {
+    hyphens: auto;
+    color: white;
+  }
+
   .container{
    width: 100%;
   }
@@ -75,7 +80,11 @@ h1 {
  }
 @media (max-width: 992px) {
     
-  
+  .bio {
+    hyphens: auto;
+    color: white;
+  }
+
    .container{
     width: 100%;
    }
@@ -87,6 +96,10 @@ h1 {
 
   @media (max-width: 1200px) {
     
+    .bio {
+      hyphens: auto;
+      color: white;
+    }
   
     .container{
      width: 100%;

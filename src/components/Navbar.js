@@ -11,11 +11,11 @@ export default function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar  position="static" style={{backgroundColor:'black'}}>
         <Toolbar>
-        <Button color="inherit">About</Button>
-          <Button color="inherit">Work</Button>
-          <Button color="inherit">Skill</Button>
+        <Button color="inherit" href="#about">About</Button>
+          <Button color="inherit" href="#projects">Work</Button>
+          <Button color="inherit" href="#skills">Skill</Button>
 
-          <Button color="inherit">Testimonials</Button>
+          <Button color="inherit" href="#testimonials">Testimonials</Button>
 
         </Toolbar>
       </AppBar>

@@ -47,7 +47,7 @@ const Projects = () => {
             <motion.a
               href={project.link}
               key={project.image}
-              className="p-4 border-2 border-transparent hover:border-blue-500 transition-colors duration-300 text-justify"
+              className="p-4 border-2 border-transparent hover:border-blue-500 transition-colors duration-300 "
               variants={itemVariants}
             >
                 <h1 className="tracking-widest text-lg title-font font-medium text-green-400 mb-2 mt-2">

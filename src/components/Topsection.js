@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image';
 import desktop from './Images/desktop.gif'
 import kakashe from './Images/kakashe.gif'
 import Button from '@mui/material/Button';
+import { TypeAnimation } from 'react-type-animation';
 
 const Topsection = () => {
   return (
@@ -25,10 +26,26 @@ Mohit Madelwar
     </div>
     <div >
 
-  Web Developer
-       
+  <TypeAnimation
+      sequence={[
+   
+        'Web Developer',
+        1000, 
+        'Frontend Developer',
+        1000,
+        'MERN Developer',
+        1000,
+        'Software developer',
+        1000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{  display: 'inline-block' }}
+      repeat={Infinity}
+    />
+
     </div>
-    <Button className='hire-me' variant="outlined" size="large" > Hire Me </Button>
+    <Button className='hire-me' variant="outlined" size="large" href="#contact" > Hire Me </Button>
          
     </div>
     

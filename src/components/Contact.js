@@ -2,38 +2,49 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact({index}) {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
+  function handleSubmit(event) {
+    event.preventDefault();
+  
+    const formData = new FormData(event.target);
+  
+    fetch('https://script.google.com/macros/s/AKfycbwbYjC4VuWfv3MsUKeH9C5fVGZzzw2lu5OVhvtrpP4BMewgjPoD0jn0OfYcAfkgkQVZXQ/exec', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: new URLSearchParams(formData), 
     })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+      .then(response => response.text()) 
+      .then(data => {
+        console.log('Success:', data);
+        toast.success("Your message has been sent successfully!");
+        event.target.reset();
+        setName('');
+        setEmail('');
+        setMessage('');
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        toast.error("There was an error sending your message. Please try again.");
+        
+      });
   }
-
   return (
     <section id="contact" className="relative bg-black">
+            <ToastContainer />
+
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap justify-center ">  
            
         <form
-          netlify
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col w-full md:py-8 mt-8 md:mt-0 ">
@@ -115,7 +126,7 @@ export default function Contact({index}) {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg--600 rounded text-lg">
             Submit
           </button>
           </motion.div>

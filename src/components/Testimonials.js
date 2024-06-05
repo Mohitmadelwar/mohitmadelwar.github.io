@@ -1,6 +1,6 @@
 import React from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
-import { testimonials } from './data';
+import { testimonials } from "./data";
 import { motion } from "framer-motion";
 
 import './css/Testimonials.css';
@@ -23,13 +23,13 @@ export default function Testimonials() {
               className="p-4 md:w-1/2 w-full"
               initial={{
                 opacity: 0,
-                x: index % 2 === 0 ? -50 : 50, // Slide from left for even index, right for odd index
+                x: index % 2 === 0 ? -50 : 50, 
               }}
               whileInView={{
                 opacity: 1,
-                x: 0, // Slide in to its original position
+                x: 0, 
                 transition: {
-                  duration: 0.8, // Animation duration
+                  duration: 0.8,
                 },
               }}
               viewport={{ once: true }}

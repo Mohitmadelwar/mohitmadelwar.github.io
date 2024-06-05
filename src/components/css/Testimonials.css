@@ -1,3 +1,9 @@
+.desc {
+  text-align: justify;
+  hyphens: auto; 
+}
+
+
 @media (max-width: 480px) {
   .desc{
     text-align: justify;

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const About = ({index}) => {
   return (
-    <div className='bg-black'>
+    <div id="about" className='bg-black'>
         <motion.div
               initial={{
                 opacity: 0,
@@ -26,7 +26,7 @@ const About = ({index}) => {
             >
         <h1 >About Me</h1>
       
-<div className='bio  p-4'>
+<div className='bio p-4'>
     <p>
     "Proactive Software Engineer Associate and recent Computer Science and Engineering graduate,
      driven by a passion for crafting exceptional digital experiences. Specializing in React and 
