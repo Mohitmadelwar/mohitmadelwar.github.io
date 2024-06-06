@@ -163,7 +163,7 @@ const About = ({index}) => {
 
   >
     <h3 className="vertical-timeline-element-title">10th (C.B.S.E Board)</h3>
-    <h4 className="vertical-timeline-element-subtitle">Government Polytechnic Nagpur</h4>
+    <h4 className="vertical-timeline-element-subtitle">St.Paul School</h4>
     <h4 className="vertical-timeline-element-subtitle">Nagpur , MH , India</h4>
   </VerticalTimelineElement>
 
