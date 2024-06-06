@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7d2ae479.css",
-    "main.js": "/static/js/main.06bfe201.js",
+    "main.js": "/static/js/main.03fb43de.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/millionairemindset.gif": "/static/media/millionairemindset.fcc7695e0f84dde6f221.gif",
     "static/media/Hirekingdom.gif": "/static/media/Hirekingdom.446cca48664e358172b2.gif",
@@ -13,11 +13,11 @@
     "static/media/BasuTiwari.jpg": "/static/media/BasuTiwari.67ee92d813658f8c8a3b.jpg",
     "index.html": "/index.html",
     "main.7d2ae479.css.map": "/static/css/main.7d2ae479.css.map",
-    "main.06bfe201.js.map": "/static/js/main.06bfe201.js.map",
+    "main.03fb43de.js.map": "/static/js/main.03fb43de.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d2ae479.css",
-    "static/js/main.06bfe201.js"
+    "static/js/main.03fb43de.js"
   ]
 }
