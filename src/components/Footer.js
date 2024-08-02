@@ -9,13 +9,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-icons">
-          <a href="hhttps://github.com/Mohitmadelwar" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Mohitmadelwar" target="_blank" rel="noopener noreferrer">
             <FaGithub size={32} />
           </a>
           <a href="https://www.linkedin.com/in/mohit-madelwar-80252b1b3/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={32} />
           </a>
-          <a href="hhttps://x.com/MMadelwar" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/MMadelwar" target="_blank" rel="noopener noreferrer">
             <FaXTwitter size={32} />
           </a>
         </div>
