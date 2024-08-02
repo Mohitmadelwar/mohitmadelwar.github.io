@@ -73,13 +73,14 @@ export const skills = [
   "MUI",
   "Tailwind css",
   "Express.js",
-  "Node",
+  "Node.js",
+  "postman",
   "MySQL",
   "MongoDB",
   "Figma",
   "Azure Cloud",
   "Adobe photoshop",
   "Adobe after effects",
-  " Adobe premiere pro",
+  "Adobe premiere pro",
   "Fl studio"
 ];
