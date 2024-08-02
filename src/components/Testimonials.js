@@ -34,7 +34,7 @@ export default function Testimonials() {
               }}
               viewport={{ once: true }}
             >
-              <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+              <div className="testimonial-card h-full w-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <TerminalIcon className="block w-8 text-blue-500 mb-4" />
                 <p className="desc leading-relaxed mb-6 text-gray-500 text-justify">{testimonial.quote}</p>
                 <div className="inline-flex items-center">

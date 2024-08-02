@@ -35,7 +35,8 @@
 
 @media (max-width: 1224px) {
     .testimonial-card {
-      width: 100%;
+ padding:15px;
+ width:100%
     }
   }
   
