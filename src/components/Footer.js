@@ -23,6 +23,7 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Mohit Madelwar. All rights reserved.</p>
         </div>
       </div>
+    
     </footer>
   );
 };
