@@ -1,91 +1,296 @@
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto ;
-    gap: 10px;
-    background-color: #000508;
-    padding: 100px;
-    color: aliceblue;
-    
-   
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+  padding: 4rem 2rem;
+  color: #f8fafc;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: none;
+}
+
+.grid-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(139, 92, 246, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.left-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.kakashi {
+  width: 80px;
+  height: 80px;
+  margin-left: 1rem;
+  border-radius: 50%;
+  border: 3px solid rgba(59, 130, 246, 0.3);
+  transition: all 0.3s ease;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.kakashi:hover {
+  transform: scale(1.1);
+  border-color: rgba(59, 130, 246, 0.6);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+.text-img {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.img {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Type Animation Styling */
+.type-animation {
+  font-size: 1.5rem;
+  color: #3b82f6;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  min-height: 2rem;
+}
+
+/* Hire Me Button Styling */
+.hire-me {
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6) !important;
+  color: white !important;
+  border: none !important;
+  padding: 1rem 2rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.hire-me::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.hire-me:hover::before {
+  left: 100%;
+}
+
+.hire-me:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4) !important;
+}
+
+/* Responsive Design */
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .grid-container {
+    padding: 5rem 3rem;
+    gap: 4rem;
   }
-
-  .name{
-
-   font-size:50px;
-   font-weight: bold;
-  }
-  .left-grid{
-
-   grid-template-columns: auto;
-   padding: 10px;
-   font-size:50px;
   
+  .name {
+    font-size: 4rem;
+  }
+  
+  .text-img {
+    font-size: 1.75rem;
+  }
+  
+  .type-animation {
+    font-size: 1.75rem;
   }
 
  .kakashi {
    width: 100px;
- height:100px;
- margin-bottom: 11px;
-
-}
-.text-img{
-   display: flex;
-   align-items: center;
-
+    height: 100px;
+    object-fit: cover;
+    object-position: center 20%;
+  }
 }
 
-
-.img{
-   height:auto;
-   width:auto;
-   display:flex
+/* Tablets */
+@media (max-width: 1024px) {
+  .grid-container {
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+  }
+  
+  .name {
+    font-size: 3rem;
+  }
+  
+  .text-img {
+    font-size: 1.25rem;
+  }
+  
+  .type-animation {
+    font-size: 1.25rem;
+  }
+  
+  .left-grid {
+    padding: 1.5rem;
+  }
 }
 
-
+/* Mobile devices */
 @media (max-width: 768px) {
    .grid-container {
        grid-template-columns: 1fr;
-       padding: 50px;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    text-align: center;
    }
 
    .name {
-       font-size: 40px;
+    font-size: 2.5rem;
    }
 
    .left-grid {
-       font-size: 40px;
-       padding: 20px;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .text-img {
+    font-size: 1.125rem;
+    justify-content: center;
+  }
+
+  .type-animation {
+    font-size: 1.125rem;
    }
 
    .kakashi {
-       width: 80px;
-       height: 80px;
-   }
+    width: 70px;
+    height: 70px;
+    margin-left: 0.5rem;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+
+  .hire-me {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
 }
 
-/* For mobile devices */
+/* Small mobile devices */
 @media (max-width: 480px) {
    .grid-container {
-       grid-template-columns: 1fr;
-       padding: 20px;
+    padding: 1.5rem 0.75rem;
+    gap: 1.5rem;
    }
 
    .name {
-       font-size: 30px;
+    font-size: 2rem;
    }
 
    .left-grid {
-       font-size: 30px;
-       padding: 10px;
+    padding: 0.75rem;
+  }
+
+  .text-img {
+    font-size: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .type-animation {
+    font-size: 1rem;
    }
 
-   .kakashi {
-       width: 60px;
-       height: 60px;
-   }
+  .kakashi {
+    width: 60px;
+    height: 60px;
+    margin-left: 0;
+    object-fit: cover;
+    object-position: center 20%;
+  }
 
    .hire-me {
-       width: 100%;
-       font-size: 16px;
-   }
+    padding: 0.875rem 1.5rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Desktop Image Styling */
+.desktop-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.desktop-image:hover {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+  .grid-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .name {
+    font-size: 1.75rem;
+  }
+
+  .text-img {
+    font-size: 0.9rem;
+  }
+
+  .type-animation {
+    font-size: 0.9rem;
+  }
+
+  .kakashi {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center 20%;
+  }
 }
