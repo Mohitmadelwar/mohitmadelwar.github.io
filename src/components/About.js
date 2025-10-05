@@ -27,13 +27,11 @@ const About = ({index}) => {
         <h1 >About Me</h1>
       
 <div className='bio p-4 mb-2'>
-    <p>
-    "Full-Stack Web Developer with hands-on experience in React.js, React Native, Vue.js, Node.js, and MongoDB, 
+    <p>"Full-Stack Web Developer with hands-on experience in React.js, React Native, Vue.js, Node.js, and MongoDB, 
      with expertise in responsive design and API integration. I deliver scalable, maintainable, and high-quality 
      UI/UX solutions in Agile environments. With a proven track record of improving performance metrics like 
      reducing load times by 30% and deployment times by 50%, I bring technical excellence and collaborative 
-     problem-solving to every project. Let's connect to explore how I can bring value to your team and projects!"
-         </p>
+     problem-solving to every project. Let's connect to explore how I can bring value to your team and projects!"</p>
 </div>
 </motion.div>
 
