@@ -4,10 +4,30 @@ import Concave from './Images/ConcaveTrading.gif'
 import Hirekingdom from './Images/Hirekingdom.gif'
 import Saket from './Images/saketjagtap.jpg'
 import Basu from './Images/BasuTiwari.jpg'
+import PHD from './Images/phd.gif'
+import Alphaquark from './Images/alphaquark.gif'
 
 
 
 export const projects = [
+  {
+
+    subtitle: "Alphaquark.in",
+    description:
+    "Alphaquark product company profile website showcasing company information, services, pricing, contact details, and work portfolio. Developed responsive frontend features using React, JavaScript, Vue, and Tailwind CSS. Enhanced user experience through frontend optimizations and API integrations with Node.js and MongoDB.",
+
+    image: Alphaquark,
+    link: "https://www.alphaquark.in/",
+  },
+  {
+
+    subtitle: "PHD Capital",
+    description:
+    "RA's advisory platform created by Alphaquark company. Developed responsive frontend features using React, JavaScript, Vue, and Tailwind CSS. Enhanced user experience through frontend optimizations and API integrations with Node.js and MongoDB. Managed MongoDB and Git version control, and assisted with AWS deployment and CI/CD pipelines.",
+
+    image: PHD,
+    link: "https://modelportfolio.phdcapital.in/",
+  },
   {
 
     subtitle: "Millionaire Mindset",
@@ -64,23 +84,25 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "React",
-  "Redux",
   "JavaScript",
-  "Core Java",
-  "Html & CSS",
-  "Bootstrap",
-  "MUI",
-  "Tailwind css",
-  "Express.js",
+  "HTML",
+  "CSS",
+  "React.js",
+  "Redux",
+  "React Native",
+  "Next.js",
+  "Vue.js",
   "Node.js",
-  "postman",
-  "MySQL",
+  "Express.js",
   "MongoDB",
-  "Figma",
-  "Azure Cloud",
-  "Adobe photoshop",
-  "Adobe after effects",
-  "Adobe premiere pro",
-  "Fl studio"
+  "REST APIs",
+  "Tailwind CSS",
+  "SASS/CSS",
+  "Figma (UX/UI)",
+  "Git",
+  "GitLab",
+  "AWS Hosting",
+  "cPanel",
+  "Technical Documentation",
+  "Project Management"
 ];

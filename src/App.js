@@ -11,14 +11,16 @@ import Footer from './components/Footer';
 function App() {
   return ( 
 <React.Fragment>
-  <Navbar/>
-  <Topsection/>
-  <About/>
-  <Projects/>
-<Tools/>
-<Testimonials/>
-<Contact/>
-<Footer/>
+  <div className="gradient-bg">
+    <Navbar/>
+    <Topsection/>
+    <About/>
+    <Projects/>
+    <Tools/>
+    <Testimonials/>
+    <Contact/>
+    <Footer/>
+  </div>
 </React.Fragment>
   );
 }

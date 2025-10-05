@@ -47,30 +47,39 @@ const Projects = () => {
             <motion.a
               href={project.link}
               key={project.image}
-              className="p-4 border-2 border-transparent hover:border-blue-500 transition-colors duration-300 "
+              className="project-card card-hover"
               variants={itemVariants}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-                <h1 className="tracking-widest text-lg title-font font-medium text-green-400 mb-2 mt-2">
-                    {project.subtitle}
-                  </h1>
-              <div className="flex relative ">
-                 <h2 className="tracking-widest text-sm title-font font-medium text-green-400">
-                    {project.subtitle}
-                  </h2>
-            
+              <h1 className="project-title">
+                {project.subtitle}
+              </h1>
+              <div className="relative overflow-hidden rounded-lg">
                 <img
-                  alt="gallery"
-                  className="image absolute inset-0 w-full h-full object-cover object-center "
+                  alt={project.subtitle}
+                  className="image"
                   src={project.image}
-                  
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                 
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-4">
+                  <span className="text-white font-medium">View Project →</span>
                 </div>
               </div>
-            
-              <p className="description leading-relaxed mt-5 ">{project.description}</p>
-
+              <p className="description">{project.description}</p>
+              <div className="mt-3 text-center">
+                <a 
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="project-link"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                  Visit Project
+                </a>
+              </div>
             </motion.a>
           ))}
         </motion.div>
