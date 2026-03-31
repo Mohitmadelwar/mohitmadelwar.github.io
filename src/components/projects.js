@@ -9,19 +9,21 @@ const Projects = () => {
   const isInView = useInView(containerRef, { once: true });
 
   const containerVariants ={
-    hidden: { opacity: 0, x: -50 },
+    hidden: { opacity: 0, y: 24 },
     visible: {
       opacity: 1,
-      x: 0,
+      y: 0,
       transition: {
+
         staggerChildren: 0.3,
+        
       },
     },
   };
   
   const itemVariants = {
-    hidden: { opacity: 0, x: -50 },
-    visible: { opacity: 1, x: 0 },
+    hidden: { opacity: 0, y: 18, scale: 0.98 },
+    visible: { opacity: 1, y: 0, scale: 1 },
   };
   return (
     <section id="projects" className="text-gray-400 bg-black body-font">
@@ -36,7 +38,7 @@ const Projects = () => {
           </p>
         </div>
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 gap-4 "
+          className="grid grid-cols-1 sm:grid-cols-2 gap-5"
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           variants={containerVariants}
@@ -51,6 +53,8 @@ const Projects = () => {
               variants={itemVariants}
               target="_blank"
               rel="noopener noreferrer"
+              whileHover={{ y: -10, scale: 1.01 }}
+              whileTap={{ scale: 0.99 }}
             >
               <h1 className="project-title">
                 {project.subtitle}

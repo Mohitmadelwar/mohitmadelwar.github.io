@@ -59,11 +59,26 @@ const About = ({index}) => {
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="September 2024 - Present"
+    date="December 2025 - Present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<Bs0Circle /> }
   >
-    <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
+    <h3 className="vertical-timeline-element-title">Founder • Full Stack Developer</h3>
+    <h3 className="vertical-timeline-element-subtitle">ClarityX.in</h3>
+
+    <h4 className="vertical-timeline-element-subtitle">Nagpur, India</h4>
+    
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="September 2024 - December 2025"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<Bs0Circle /> }
+  >
+    <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
     <h3 className="vertical-timeline-element-subtitle">Alphaquark (Arpint Pvt. Ltd.)</h3>
 
     <h4 className="vertical-timeline-element-subtitle">Bengaluru, India</h4>
@@ -72,7 +87,6 @@ const About = ({index}) => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="October 2023 - November 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -80,9 +94,7 @@ const About = ({index}) => {
   >
     <h3 className="vertical-timeline-element-title">Software Engineer Associate</h3>
     <h3 className="vertical-timeline-element-subtitle">Blackcoffer</h3>
-
     <h4 className="vertical-timeline-element-subtitle">New Delhi, India</h4>
-    
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"

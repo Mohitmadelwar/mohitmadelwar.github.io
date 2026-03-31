@@ -6,10 +6,53 @@ import Saket from './Images/saketjagtap.jpg'
 import Basu from './Images/BasuTiwari.jpg'
 import PHD from './Images/phd.gif'
 import Alphaquark from './Images/alphaquark.gif'
+import ClarityX from './Images/clarityx.svg'
+import SonaliVijekar from './Images/sonalivijekar.svg'
+import ArkaElectrical from './Images/arkaelectrical.svg'
+import RSonsCafe from './Images/rsonscafe.svg'
+import ShraviFinance from './Images/shravifinance.svg'
+import TestimonialSonali from './Images/testimonial-sonali.svg'
+import TestimonialPrajwal from './Images/testimonial-prajwal.svg'
+import TestimonialPrathamesh from './Images/testimonial-prathamesh.svg'
 
 
 
 export const projects = [
+  {
+    subtitle: "ClarityX.in",
+    description:
+      "Founder project at ClarityX delivering IT services, web/app development, and AI integration. Focused on modern UI/UX, performance, and scalable frontend architecture.",
+    image: ClarityX,
+    link: "https://clarityx.in/",
+  },
+  {
+    subtitle: "Sonali Vijekar",
+    description:
+      "Portfolio website for an architect in Nagpur. Built a clean, modern, responsive layout with strong visual hierarchy to showcase services and work.",
+    image: SonaliVijekar,
+    link: "http://sonalivijekar.com/",
+  },
+  {
+    subtitle: "Arka Electrical",
+    description:
+      "Business website for solar & electrical services. Implemented a conversion-focused layout with clear service sections and strong calls-to-action.",
+    image: ArkaElectrical,
+    link: "https://arkaelectrical.com/",
+  },
+  {
+    subtitle: "R Son's Cafe",
+    description:
+      "Cafe website with brand-forward design, responsive sections, and a simple, engaging user journey from hero to menu and contact.",
+    image: RSonsCafe,
+    link: "https://rsonscafe.com/",
+  },
+  {
+    subtitle: "Shravi Finance",
+    description:
+      "Finance website designed for trust and clarity. Built a responsive landing experience with clear services, value props, and lead capture flow.",
+    image: ShraviFinance,
+    link: "https://shravifinance.com/",
+  },
   {
 
     subtitle: "Alphaquark.in",
@@ -66,6 +109,27 @@ export const projects = [
 
 
 export const testimonials = [
+  {
+    quote:
+      "Mohit delivered a clean, modern website with great attention to detail. The layout is polished, responsive, and communicates my work clearly. The process was smooth and professional from start to finish.",
+    image: TestimonialSonali,
+    name: "Sonali Vijekar",
+    company: "Architect",
+  },
+  {
+    quote:
+      "Mohit built our finance website with a strong focus on clarity and trust. The UI feels premium, loads fast, and the overall structure makes it easy for users to understand our services and reach out.",
+    image: TestimonialPrajwal,
+    name: "Prajwal Jadhav",
+    company: "Shravi Finance",
+  },
+  {
+    quote:
+      "Great experience working with Mohit. He understood our solar & electrical business needs quickly and delivered a modern website with strong CTAs, clean sections, and a professional look across devices.",
+    image: TestimonialPrathamesh,
+    name: "Prathamesh Talewar",
+    company: "Arka Electrical",
+  },
   {
     quote:
       "Working with Mohit since March 2024 has been amazing. He has transformed my website with his skills and attention to detail, making it user-friendly and dynamic. Thanks to his work, my site now works smoothly on all devices, reaching audiences worldwide. Overall, I'm thrilled with our collaboration, which has boosted my online presence and success message. Thanks, for your great work.",

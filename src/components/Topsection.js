@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 
 const Topsection = () => {
   return (
-    <div className='grid-container'>
+    <div id="top" className='grid-container'>
       <motion.div 
         className='left-grid'
         initial={{ opacity: 0, x: -50 }}
@@ -49,13 +49,13 @@ const Topsection = () => {
         >
           <TypeAnimation
             sequence={[
-              'Full-Stack Web Developer',
+              'Founder • Full Stack Developer @ ClarityX.in',
               2000, 
               'React.js Developer',
               2000,
-              'MERN Stack Developer',
+              'Building ClarityX (Founder)',
               2000,
-              'Frontend Developer',
+              'Full Stack Developer',
               2000,
               'Vue.js Developer',
               2000,

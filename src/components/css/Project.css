@@ -34,6 +34,7 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  transform: translateZ(0);
 }
 
 .project-card::before {
@@ -49,8 +50,28 @@
   pointer-events: none;
 }
 
+.project-card::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  left: -40%;
+  width: 180%;
+  height: 180%;
+  background: radial-gradient(circle at 30% 30%, rgba(236, 72, 153, 0.10), transparent 45%),
+              radial-gradient(circle at 70% 60%, rgba(59, 130, 246, 0.10), transparent 50%);
+  opacity: 0;
+  transform: scale(0.98);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  pointer-events: none;
+}
+
 .project-card:hover::before {
   opacity: 1;
+}
+
+.project-card:hover::after {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .project-card:hover {

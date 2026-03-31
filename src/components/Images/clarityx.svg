@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.5" stop-color="#141A33"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 170) rotate(35) scale(520 360)">
+      <stop stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 420) rotate(-25) scale(520 360)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="420" y1="220" x2="820" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <filter id="blur" x="-40" y="-40" width="1280" height="710" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <g opacity="0.65" filter="url(#blur)">
+    <path d="M155 452C270 318 346 271 455 252C564 234 625 272 715 344C805 416 920 470 1045 452" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="86" y="96" width="1028" height="438" rx="28" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="116" y="128" width="250" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.14"/>
+    <rect x="116" y="152" width="180" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.10"/>
+
+    <text x="116" y="290" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="58" font-weight="800">
+      ClarityX
+    </text>
+    <text x="116" y="342" fill="#E5E7EB" fill-opacity="0.85" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="600">
+      Founder • Full Stack Developer
+    </text>
+    <text x="116" y="390" fill="#E5E7EB" fill-opacity="0.70" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="22">
+      IT Services • Web &amp; App Development • AI Integration
+    </text>
+
+    <g transform="translate(880 215)">
+      <path d="M0 50C0 22.386 22.386 0 50 0H170C197.614 0 220 22.386 220 50V170C220 197.614 197.614 220 170 220H50C22.386 220 0 197.614 0 170V50Z" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <path d="M65 150L110 70L155 150" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M70 120H150" stroke="#E5E7EB" stroke-opacity="0.80" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
