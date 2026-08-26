@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#141A33"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 190) rotate(20) scale(520 360)">
+      <stop stop-color="#3B82F6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 420) rotate(-10) scale(560 380)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="220" y1="120" x2="1020" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <rect x="86" y="96" width="1028" height="438" rx="28" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <g transform="translate(860 210)">
+    <rect x="0" y="0" width="240" height="240" rx="28" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <path d="M120 52C98 52 80 70 80 92V112C68 118 60 130 60 144V188C60 206 75 221 93 221H147C165 221 180 206 180 188V144C180 130 172 118 160 112V92C160 70 142 52 120 52Z" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="6"/>
+    <path d="M95 118H145" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M120 145L120 175" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="120" cy="158" r="7" fill="url(#accent)"/>
+  </g>
+
+  <text x="116" y="280" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="54" font-weight="850">
+    Lockwatch Guard
+  </text>
+  <text x="116" y="332" fill="#E5E7EB" fill-opacity="0.85" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="650">
+    Mobile Application
+  </text>
+  <text x="116" y="380" fill="#E5E7EB" fill-opacity="0.68" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="22">
+    Security-focused mobile app development
+  </text>
+</svg>

@@ -49,17 +49,17 @@ const Topsection = () => {
         >
           <TypeAnimation
             sequence={[
-              'Founder • Full Stack Developer @ ClarityX.in',
-              2000, 
-              'React.js Developer',
+              'Co-Founder @ ClarityX',
               2000,
-              'Building ClarityX (Founder)',
+              'Software Developer & Entrepreneur',
+              2000,
+              'Developer of OnCall24',
+              2000,
+              'Mobile App Developer',
               2000,
               'Full Stack Developer',
               2000,
-              'Vue.js Developer',
-              2000,
-              'Node.js Developer',
+              'Building Digital Solutions',
               2000
             ]}
             wrapper="span"

@@ -27,11 +27,7 @@ const About = ({index}) => {
         <h1 >About Me</h1>
       
 <div className='bio p-4 mb-2'>
-    <p>"Full-Stack Web Developer with hands-on experience in React.js, React Native, Vue.js, Node.js, and MongoDB, 
-     with expertise in responsive design and API integration. I deliver scalable, maintainable, and high-quality 
-     UI/UX solutions in Agile environments. With a proven track record of improving performance metrics like 
-     reducing load times by 30% and deployment times by 50%, I bring technical excellence and collaborative 
-     problem-solving to every project. Let's connect to explore how I can bring value to your team and projects!"</p>
+    <p>I am a technology professional, entrepreneur, and software developer with experience building software products, mobile applications, websites, and digital solutions. As Co-Founder of <a href="https://clarityx.in/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">ClarityX</a>, I work on software and web development, mobile apps, IT solutions, digital marketing, and custom software for businesses. My recent work includes developing <a href="http://oncall24.in/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">OnCall24</a> and the Lockwatch Guard App, along with client websites and business technology projects. I focus on practical product development — from UI and frontend work to full application builds — and enjoy turning ideas into usable software.</p>
 </div>
 </motion.div>
 
@@ -63,10 +59,13 @@ const About = ({index}) => {
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<Bs0Circle /> }
   >
-    <h3 className="vertical-timeline-element-title">Founder • Full Stack Developer</h3>
+    <h3 className="vertical-timeline-element-title">Co-Founder • Full Stack Developer</h3>
     <h3 className="vertical-timeline-element-subtitle">ClarityX.in</h3>
 
     <h4 className="vertical-timeline-element-subtitle">Nagpur, India</h4>
+    <p className="vertical-timeline-element-subtitle mt-2">
+      Software &amp; web development, mobile apps, IT solutions, digital marketing, and custom software development.
+    </p>
     
   </VerticalTimelineElement>
   <VerticalTimelineElement

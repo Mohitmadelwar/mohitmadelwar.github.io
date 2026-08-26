@@ -7,6 +7,8 @@ import Basu from './Images/BasuTiwari.jpg'
 import PHD from './Images/phd.gif'
 import Alphaquark from './Images/alphaquark.gif'
 import ClarityX from './Images/clarityx.svg'
+import OnCall24 from './Images/oncall24.svg'
+import Lockwatch from './Images/lockwatch.svg'
 import SonaliVijekar from './Images/sonalivijekar.svg'
 import ArkaElectrical from './Images/arkaelectrical.svg'
 import RSonsCafe from './Images/rsonscafe.svg'
@@ -21,9 +23,23 @@ export const projects = [
   {
     subtitle: "ClarityX.in",
     description:
-      "Founder project at ClarityX delivering IT services, web/app development, and AI integration. Focused on modern UI/UX, performance, and scalable frontend architecture.",
+      "Co-Founder at ClarityX, delivering software & web development, mobile apps, IT solutions, digital marketing, and custom software for businesses.",
     image: ClarityX,
     link: "https://clarityx.in/",
+  },
+  {
+    subtitle: "OnCall24",
+    description:
+      "Developer of OnCall24 — a digital platform built as part of my product and application development work at ClarityX.",
+    image: OnCall24,
+    link: "http://oncall24.in/",
+  },
+  {
+    subtitle: "Lockwatch Guard App",
+    description:
+      "Mobile application focused on security and device protection. Part of my work in mobile app development and product building.",
+    image: Lockwatch,
+    link: "https://play.google.com/store/apps/details?id=com.lockwatch.guard&pcampaignid=web_share",
   },
   {
     subtitle: "Sonali Vijekar",
@@ -148,25 +164,23 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "HTML",
-  "CSS",
+  "Software Development",
+  "Web Development",
+  "Mobile App Development",
   "React.js",
-  "Redux",
   "React Native",
-  "Next.js",
-  "Vue.js",
   "Node.js",
-  "Express.js",
+  "Vue.js",
   "MongoDB",
   "REST APIs",
+  "Custom Software Development",
+  "IT Solutions",
+  "Digital Marketing",
+  "AI & Technology Solutions",
+  "Product Development",
   "Tailwind CSS",
-  "SASS/CSS",
   "Figma (UX/UI)",
   "Git",
-  "GitLab",
   "AWS Hosting",
-  "cPanel",
-  "Technical Documentation",
   "Project Management"
 ];
