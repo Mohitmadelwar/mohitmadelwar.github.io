@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0706"/>
+      <stop offset="0.55" stop-color="#1A0F0B"/>
+      <stop offset="1" stop-color="#0A0706"/>
+    </linearGradient>
+    <radialGradient id="coffee" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 200) rotate(25) scale(560 400)">
+      <stop stop-color="#F97316" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cream" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 420) rotate(-15) scale(560 420)">
+      <stop stop-color="#A78BFA" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="240" y1="120" x2="1020" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316"/>
+      <stop offset="0.55" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#coffee)"/>
+  <rect width="1200" height="630" fill="url(#cream)"/>
+
+  <rect x="86" y="96" width="1028" height="438" rx="28" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <g transform="translate(860 210)">
+    <rect x="0" y="0" width="240" height="240" rx="28" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <path d="M70 95C70 71.804 88.804 53 112 53H138C161.196 53 180 71.804 180 95V120C180 143.196 161.196 162 138 162H112C88.804 162 70 143.196 70 120V95Z" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <path d="M180 92H196C212 92 225 105 225 121C225 137 212 150 196 150H180" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M98 38C98 20 112 14 112 0" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="8" stroke-linecap="round"/>
+    <path d="M128 38C128 20 142 14 142 0" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="8" stroke-linecap="round"/>
+    <path d="M112 175H155" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <text x="116" y="280" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="54" font-weight="850">
+    R Son's Cafe
+  </text>
+  <text x="116" y="332" fill="#E5E7EB" fill-opacity="0.85" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="650">
+    Cafe Website
+  </text>
+  <text x="116" y="380" fill="#E5E7EB" fill-opacity="0.68" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="22">
+    Brand-forward layout with menu/CTA sections
+  </text>
+</svg>

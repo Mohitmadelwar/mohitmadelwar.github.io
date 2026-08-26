@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A14"/>
+      <stop offset="0.6" stop-color="#12162B"/>
+      <stop offset="1" stop-color="#070A14"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 190) rotate(20) scale(520 360)">
+      <stop stop-color="#EC4899" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 420) rotate(-10) scale(560 380)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="210" y1="120" x2="980" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EC4899"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <rect x="86" y="96" width="1028" height="438" rx="28" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <g opacity="0.9">
+    <path d="M200 445C285 360 335 300 430 275C525 250 595 270 670 325C745 380 840 450 1000 455" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="250" cy="410" r="7" fill="#EC4899" fill-opacity="0.9"/>
+    <circle cx="550" cy="300" r="7" fill="#8B5CF6" fill-opacity="0.9"/>
+    <circle cx="860" cy="420" r="7" fill="#3B82F6" fill-opacity="0.9"/>
+  </g>
+
+  <text x="116" y="280" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="54" font-weight="850">
+    Sonali Vijekar
+  </text>
+  <text x="116" y="332" fill="#E5E7EB" fill-opacity="0.85" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="650">
+    Architect • Architecture Design Services
+  </text>
+  <text x="116" y="380" fill="#E5E7EB" fill-opacity="0.68" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="22">
+    Portfolio website with modern, responsive UI
+  </text>
+</svg>

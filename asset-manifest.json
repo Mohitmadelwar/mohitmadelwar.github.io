@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8604471.css",
-    "main.js": "/static/js/main.db74a6e0.js",
-    "static/js/453.ac9b7e2a.chunk.js": "/static/js/453.ac9b7e2a.chunk.js",
+    "main.css": "/static/css/main.93c374f4.css",
+    "main.js": "/static/js/main.cd9a51a2.js",
+    "static/js/453.c27cc104.chunk.js": "/static/js/453.c27cc104.chunk.js",
     "static/media/phd.gif": "/static/media/phd.8c7929b4be3164cfcfe4.gif",
     "static/media/alphaquark.gif": "/static/media/alphaquark.190140e956be772c2164.gif",
     "static/media/millionairemindset.gif": "/static/media/millionairemindset.fcc7695e0f84dde6f221.gif",
@@ -13,13 +13,23 @@
     "static/media/profile.jpg": "/static/media/profile.91672fc72df826689361.jpg",
     "static/media/saketjagtap.jpg": "/static/media/saketjagtap.131369a2ef59f5bcbb7d.jpg",
     "static/media/BasuTiwari.jpg": "/static/media/BasuTiwari.67ee92d813658f8c8a3b.jpg",
+    "static/media/clarityx.svg": "/static/media/clarityx.44516eac590b9ed463537a2b7bec0b5b.svg",
+    "static/media/rsonscafe.svg": "/static/media/rsonscafe.4ded832e7e8fdcd9078b27d7e73ac7a9.svg",
+    "static/media/lockwatch.svg": "/static/media/lockwatch.6f29c45941e7bb6cc147832d04fb37bd.svg",
+    "static/media/shravifinance.svg": "/static/media/shravifinance.b78e23f1b29e41e1c474f8312a50aceb.svg",
+    "static/media/oncall24.svg": "/static/media/oncall24.b05e38b3e8fbb6abd0372e1be546d2c6.svg",
+    "static/media/arkaelectrical.svg": "/static/media/arkaelectrical.2cf0046be19e78e5b2e36e9a5d19b9e6.svg",
     "index.html": "/index.html",
-    "main.c8604471.css.map": "/static/css/main.c8604471.css.map",
-    "main.db74a6e0.js.map": "/static/js/main.db74a6e0.js.map",
-    "453.ac9b7e2a.chunk.js.map": "/static/js/453.ac9b7e2a.chunk.js.map"
+    "static/media/sonalivijekar.svg": "/static/media/sonalivijekar.771de834e2367f42b7d652d21ea18f46.svg",
+    "static/media/testimonial-prajwal.svg": "/static/media/testimonial-prajwal.65730d62dbd134b46173648e7b10e437.svg",
+    "static/media/testimonial-prathamesh.svg": "/static/media/testimonial-prathamesh.0e61f9df5c2effb6811870e1043fc896.svg",
+    "static/media/testimonial-sonali.svg": "/static/media/testimonial-sonali.1cf22a496c6ec3063661d1e4859cec57.svg",
+    "main.93c374f4.css.map": "/static/css/main.93c374f4.css.map",
+    "main.cd9a51a2.js.map": "/static/js/main.cd9a51a2.js.map",
+    "453.c27cc104.chunk.js.map": "/static/js/453.c27cc104.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8604471.css",
-    "static/js/main.db74a6e0.js"
+    "static/css/main.93c374f4.css",
+    "static/js/main.cd9a51a2.js"
   ]
 }
